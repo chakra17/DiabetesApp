@@ -1,0 +1,32 @@
+{
+  "auc": 0.9739186461062669,
+  "average_precision": 0.94168416575041,
+  "threshold_youden_j": 0.47552796158820754,
+  "brier_score": 0.03461292130025067,
+  "confusion_matrix": [
+    [
+      731,
+      20
+    ],
+    [
+      19,
+      136
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n           0     0.9747    0.9734    0.9740       751\n           1     0.8718    0.8774    0.8746       155\n\n    accuracy                         0.9570       906\n   macro avg     0.9232    0.9254    0.9243       906\nweighted avg     0.9571    0.9570    0.9570       906\n",
+  "winner": "rf_base",
+  "top_features": [
+    "hba1c",
+    "fasting_glucose",
+    "glyco_glu_product",
+    "bmi",
+    "systolic_bp",
+    "active_minutes_per_week",
+    "sedentary_minutes_per_day",
+    "diastolic_bp",
+    "total_cholesterol",
+    "smoker",
+    "wear_days",
+    "sex"
+  ]
+}

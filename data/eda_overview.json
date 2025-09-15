@@ -1,0 +1,42 @@
+{
+  "n_rows": 4528,
+  "n_cols": 15,
+  "columns_present": [
+    "age",
+    "sex",
+    "bmi",
+    "waist_circumference",
+    "systolic_bp",
+    "diastolic_bp",
+    "hba1c",
+    "fasting_glucose",
+    "total_cholesterol",
+    "smoker",
+    "steps_per_week",
+    "active_minutes_per_week",
+    "sedentary_minutes_per_day",
+    "wear_days",
+    "diabetes"
+  ],
+  "numeric_features": [
+    "age",
+    "bmi",
+    "waist_circumference",
+    "systolic_bp",
+    "diastolic_bp",
+    "hba1c",
+    "fasting_glucose",
+    "total_cholesterol",
+    "smoker",
+    "steps_per_week",
+    "active_minutes_per_week",
+    "sedentary_minutes_per_day",
+    "wear_days"
+  ],
+  "categorical_features": [
+    "sex"
+  ],
+  "target": "diabetes",
+  "positive_rate": 0.1709363957597173,
+  "note_potential_leakage": "Label uses HbA1c/FPG thresholds; including those as predictors may inflate metrics."
+}

@@ -1,0 +1,16 @@
+column,n_missing,missing_pct
+smoker,2654,58.61
+waist_circumference,96,2.12
+total_cholesterol,45,0.99
+bmi,0,0.0
+systolic_bp,0,0.0
+sex,0,0.0
+age,0,0.0
+hba1c,0,0.0
+diastolic_bp,0,0.0
+fasting_glucose,0,0.0
+steps_per_week,0,0.0
+active_minutes_per_week,0,0.0
+sedentary_minutes_per_day,0,0.0
+wear_days,0,0.0
+diabetes,0,0.0
